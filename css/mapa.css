@@ -1,0 +1,51 @@
+body {
+    background-color: #000000;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ff0000' fill-opacity='0.65'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+.logo {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.imagen{
+    float: center;
+    margin: 300px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.checkbox {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    width: fit-content;
+    height: 200px;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    float: center;
+    margin-left: 1000px;
+    margin-right: 5px;
+
+}
+
+.buttonmapa {
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    text-align: right;
+    margin-left: 350px;
+    color: white;
+    background-color: black;
+
+}

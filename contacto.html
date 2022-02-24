@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="./css/css1.css" />
+    <title>Grupo de musica</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="indexmenu">
+            <div>
+                <a class="inicio" href=index.html>INICIO</a>
+            </div>
+            <div>
+                <a class="discos" href=discos.html>DISCOS</a>
+            </div>
+            <div>
+                <a class="giras" href=giras.html>GIRAS</a>
+            </div>
+            <div>
+                <a class="galeria" href=galeria.html>GALERIA</a>
+            </div>
+            <div>
+                <a class="contacto" href=contacto.html>CONTACTO</a>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Twenty_One_Pilots_Vector_Logo.svg"
+                    class="logo">
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="title">
+            <b>FORMULARIO DE CONTACTO</b>
+
+        </div>
+        <div class="caixa">
+            <div class="nom">
+                Nombre:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input name="Nom:" type="text" value="" style="font-family:'Teko', sans-serif; font-size: 16px;" />
+            </div>
+            <div class="correu">
+                Correo electronico:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input name="Correu electrónic:" type="text" value=""
+                    style="font-family:'Teko', sans-serif; font-size: 16px;" />
+            </div>
+            <div class="desitg">
+                ¿Desea recibir un correo de confirmación?&nbsp;&nbsp;&nbsp;&nbsp;
+                <input name="conf_correu" type="radio" value="conf_correu">Sí&nbsp;&nbsp;&nbsp;
+                <input name="conf_correu" type="radio" value="conf_correu">No
+            </div>
+            <div class="contacte">
+                Motivo de contacto:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <select name="Motiu de contacte" style="font-family:'Teko', sans-serif; font-size: 16px;">
+                    <option value="0" selected="selected" style="font-family:'Teko', sans-serif; font-size: 16px;"/>
+                    <option value="devolucio" style="font-family:'Teko', sans-serif; font-size: 18px;">Devolución
+
+                    <option value="contracte" style="font-family:'Teko', sans-serif; font-size: 18px;">Queja
+
+                    <option value="informacio" style="font-family:'Teko', sans-serif; font-size: 18px;">Pedir
+                        información
+
+                    <option value="altres" style="font-family:'Teko', sans-serif; font-size: 18px;">Otro
+
+                </select>
+            </div>
+            <div class="missatge">
+                Mensaje:
+                <div class="missatge2">
+                    <label for="missatge2"></label>
+                    <textarea name="missatge2" id="missatge_input" cols="60" rows="5" required
+                        style="font-family:'Teko', sans-serif; font-size: 16px;"></textarea>
+                </div>
+            </div>
+            <div>
+                <button class="button">ENVIAR</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
